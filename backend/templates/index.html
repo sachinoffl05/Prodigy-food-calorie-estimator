@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Calorie Estimator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🍽 Food Calorie Estimator</h2>
+
+    <input type="file" id="imageInput" accept="image/*">
+    <br>
+    <button onclick="sendImage()">Predict</button>
+
+    <!-- Loading -->
+    <div id="loading">🔍 Analyzing food image...</div>
+
+    <!-- Image preview -->
+    <img id="preview">
+
+    <!-- Result -->
+    <div class="result" id="result"></div>
+
+    <!-- Confidence bar -->
+    <div class="progress-bar">
+        <div class="progress" id="confidenceBar"></div>
+    </div>
+
+    <!-- Daily total -->
+    <div class="total" id="dailyTotal">Today's Calories: 0 kcal</div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
