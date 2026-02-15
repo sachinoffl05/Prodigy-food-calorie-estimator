@@ -1,1 +1,12 @@
-
+{
+  "apple_pie": 0,
+  "bibimbap": 1,
+  "cannoli": 2,
+  "edamame": 3,
+  "falafel": 4,
+  "french_toast": 5,
+  "ice_cream": 6,
+  "ramen": 7,
+  "sushi": 8,
+  "tiramisu": 9
+}
